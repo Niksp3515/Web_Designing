@@ -1,0 +1,43 @@
+1. What are the benefits of using CSS?
+ans:-->Improved Control Over Formatting
+-->Improved Site Maintaibility
+-->Improved Accessibility
+-->Improved Download speed
+-->Output Flexibility
+
+2. What are the disadvantages of CSS?
+Ans:-->CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.
+-->With CSS, what works with one browser might not always work with another.
+-->The web developers need to test for compatibility, running the program across multiple browsers.
+-->There exists a scarcity of security.
+-->Browser compatibility (some styles sheet are supported and some are not).
+
+3.  What is the difference between CSS2 and CSS3?
+Ans: Modules: CSS3 is divided into separate modules, each focusing on different aspects of styling, such as layout, colors, typography, etc. This modular approach allows for easier management and implementation of new features without overhauling the entire specification. CSS2, on the other hand, didn't follow this modular approach and presented a more monolithic specification.
+
+Selectors: CSS3 introduces several new selectors that allow for more precise targeting of elements on a webpage. Selectors like nth-child, nth-of-type, attribute selectors, etc., provide developers with more flexibility and power in styling their documents. CSS2 had a more limited set of selectors compared to CSS3.
+
+Media Queries: CSS3 introduced media queries, which allow developers to apply different styles based on various attributes of the device or viewport, such as screen size, resolution, orientation, etc. This enables the creation of responsive web designs that adapt to different devices and screen sizes. CSS2 did not have built-in support for media queries.
+
+Box Model: CSS3 introduces several enhancements to the box model, including the ability to specify box shadows, rounded corners, and borders with multiple images. These features were not available in CSS2.
+
+Animations and Transitions: CSS3 introduces support for animations and transitions, allowing developers to create dynamic and interactive effects without relying on JavaScript or Flash. CSS2 lacked built-in support for animations and transitions.
+
+Fonts: CSS3 introduces @font-face rule enhancements, allowing developers to use custom fonts in their designs more easily. CSS2 had limited support for custom fonts.
+
+Flexbox and Grid Layout: CSS3 introduces powerful layout systems like Flexbox and Grid Layout, which provide advanced capabilities for creating complex and responsive layouts. These layout systems were not available in CSS2.
+
+Vendor Prefixes: CSS3 saw the widespread use of vendor prefixes for experimental or proprietary features, allowing developers to use new CSS features before they were standardized. While vendor prefixes were also used in CSS2, they became more prevalent with CSS3.
+
+
+
+4. Name a few CSS style component:
+Ans: Typography: This includes styles for fonts, font sizes, font weights, line heights, letter spacings, and text alignments.
+
+Layout: CSS is used to control the layout of elements on a webpage, including properties like width, height, margin, padding, display types (e.g., block, inline, inline-block), positioning (e.g., relative, absolute, fixed), and floats.
+
+Colors and Backgrounds: CSS allows you to define the color of text, backgrounds, borders, and other elements using properties such as color, background-color, border-color, opacity, gradients, and image backgrounds.
+
+Borders and Box Model: CSS provides properties for styling borders around elements, including border width, style, and color. It also includes properties related to the box model, such as margin, padding, and box-sizing.
+
+Flexbox and Grid Layout: These are advanced layout systems introduced in CSS3 for creating flexible and grid-based layouts. Flexbox allows for easy alignment and distribution of elements along a single axis or in multiple dimensions, while Grid Layout provides a two-dimensional grid for arranging elements.

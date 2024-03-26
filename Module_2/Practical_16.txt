@@ -1,0 +1,27 @@
+What are the advantages and disadvantages of using external style sheets?
+Ans: 
+Advantages:
+
+Separation of Concerns: External style sheets allow for a clear separation of content (HTML) and presentation (CSS). This makes it easier to maintain and update styles without affecting the HTML structure.
+
+Reusability: Styles defined in an external CSS file can be reused across multiple web pages within the same website. This promotes consistency in design and saves time by avoiding redundant code.
+
+Consistency: By linking multiple HTML documents to a single external style sheet, you ensure consistency in design elements such as fonts, colors, and layout throughout the website.
+
+Ease of Maintenance: With external style sheets, you can make global changes to the design of your website by editing a single CSS file. This simplifies the maintenance process and reduces the risk of errors.
+
+Faster Page Loading: External style sheets are cached by the browser after the initial request, resulting in faster page loading times for subsequent visits to the website. This improves overall website performance and user experience.
+
+Accessibility: External style sheets can be easily shared and referenced by developers working on the same project, facilitating collaboration and ensuring accessibility to the styling information.
+
+Disadvantages:
+
+HTTP Request Overhead: Each external CSS file requires a separate HTTP request, which can increase page load times, especially for websites with numerous CSS files. However, this drawback can be mitigated through techniques like CSS concatenation and minification.
+
+Dependency on External Resources: If the external CSS file fails to load or is inaccessible, it can affect the appearance and layout of the web page. This dependency on external resources introduces a potential point of failure.
+
+Increased Complexity: Managing multiple external CSS files for larger projects can lead to increased complexity, especially when dealing with conflicting styles or specificity issues. Proper organization and naming conventions are necessary to mitigate this challenge.
+
+Browser Caching Issues: Changes made to an external CSS file may not immediately reflect on the website for users who have the previous version cached in their browsers. This can lead to inconsistencies until the cache is refreshed.
+
+Potential Specificity Issues: Using external style sheets can sometimes lead to specificity conflicts, especially when combining styles from multiple sources (e.g., external CSS files, inline styles). Resolving these conflicts requires a solid understanding of CSS specificity rules.

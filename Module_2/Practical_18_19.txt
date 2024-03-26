@@ -1,0 +1,30 @@
+19.  What is the rule set?
+Ans:In CSS, a rule set is the fundamental building block that defines how styles are applied to elements on a webpage. It consists of two main parts:
+
+Selectors: This specifies the HTML element(s) that the styles will be applied to. Selectors can target elements by their tag name (e.g., h1, p), class (e.g., .container), ID (e.g., #banner), or a combination of these using more complex selectors.
+
+Declaration Block: This block, enclosed in curly braces {}, contains a list of style properties and their corresponding values. These properties define various visual aspects of the element, such as font size, color, background, or margins.
+
+Here's an example of a simple rule set:
+
+CSS
+h1 {
+  color: blue;
+  font-size: 2em;
+  text-align: center;
+}
+Use code with caution.
+In this example, the selector h1 targets all <h1> elements on the page. The declaration block defines three styles:
+
+color: blue sets the text color to blue.
+font-size: 2em makes the font size twice the default size.
+text-align: center centers the text horizontally within the element.
+
+20.  What are the media types allowed by CSS?
+Ans:CSS uses media queries to define different styles for various devices and screen layouts. While media queries can target many aspects beyond device type, CSS does have predefined media types that can be used in conjunction with media queries.
+
+Here's a breakdown of media types allowed by CSS:
+
+all (default): This is the most general media type and applies to all devices. It's the default if no media type is specified in a media query.
+print: This targets styles specifically for printed output, such as documents or webpages intended for physical printing.
+screen: This targets styles for screens, including desktops, laptops, tablets, and smartphones. This is the most commonly used media type.
